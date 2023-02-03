@@ -11,4 +11,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DotnetApiBoilerplatev1.0.BusinessLogic\DotnetApiBoilerplatev1.0.BusinessLogic.csproj" />
+    <ProjectReference Include="..\DotnetApiBoilerplatev1.0.Data\DotnetApiBoilerplatev1.0.Data.csproj" />
+  </ItemGroup>
+
 </Project>
