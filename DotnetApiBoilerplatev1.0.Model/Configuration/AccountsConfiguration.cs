@@ -5,7 +5,7 @@ using System.Data;
 
 namespace DotnetApiBoilerplatev1._0.Model.Configuration
 {
-    public class AccountConfiguration : IEntityTypeConfiguration<Accounts>
+    public class AccountsConfiguration : IEntityTypeConfiguration<Accounts>
     {
         public void Configure(EntityTypeBuilder<Accounts> builder)
         {
